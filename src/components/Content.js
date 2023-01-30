@@ -1,5 +1,5 @@
-const Container = () => {
+const Content = () => {
   return <div className="greybloc"></div>;
 };
 
-export default Container;
+export default Content;

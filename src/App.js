@@ -1,11 +1,10 @@
 import "./App.css";
+import Content from "./components/Content";
+import Description from "./components/Description";
+import Title from "./components/Title";
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
-}
+const App = () => {
+  return <div Content></div>;
+};
 
 export default App;
