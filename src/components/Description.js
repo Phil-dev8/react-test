@@ -1,5 +1,5 @@
 const Description = (props) => {
-  <p></p>;
+  return <p>{props.text}</p>;
 };
 
 export default Description;
